@@ -1,0 +1,39 @@
+{
+  "name": "duo-canvas",
+  "version": "1.0.0",
+  "description": "goodbye world",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felix-403/duo-canvas.git"
+  },
+  "keywords": [
+    "canvas",
+    "canvas discord",
+    "canvas-discord",
+    "discord-canvas",
+    "discord canvas",
+    "djs",
+    "djs bot",
+    "bot discord",
+    "discord",
+    "discord.js",
+    "html5",
+    "discord js",
+    "herokuapp",
+    "knights canvas",
+    "squad 404",
+    "squad-canvas",
+    "knights-canvas"
+  ],
+  "author": "squad404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felix-403/duo-canvas/issues"
+  },
+  "homepage": "https://github.com/Felix-403/duo-canvas#readme",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "moment": "^2.29.1"
+  }
+}
