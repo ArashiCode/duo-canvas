@@ -3,7 +3,7 @@ const Canvas = require("canvas");
 module.exports = class Goodbye {
 
 constructor() {
-this.fm = "https://i.ibb.co/6WN0wjN/20211217-184957.png";
+this.fm = "https://i.ibb.co/1sXNgXm/20211217-185048.png";
 this.avatar = "https://i.ibb.co/C8SXBZK/Texas.jpg";
 this.bg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxpRpPJqAaE3pdxIC0CbdeII1pyt2JUCVPdA&usqp=CAU"
 this.username = "Felixia";
@@ -56,7 +56,7 @@ ctx.fillText(name, 298*2, 104*2);
 ctx.font = "103px RFlex";
 ctx.textAlign = 'center';
 ctx.fillStyle = "#fff";
-ctx.fillText("WELCOME", 405*2, 107);
+ctx.fillText("GOODBYE", 405*2, 107);
 
 return canvas;
 }
