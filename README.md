@@ -2,9 +2,7 @@
   <img width="190" height="190" src="https://i.ibb.co/5Mm7vsX/Friends.png">
 </p>
   
-  <p align="center">
-<h1 style="text-align: center;color:#5d74ae;"><pre>duo-canvas</pre></h1>
-</p>
+<h1 align="center"><pre>duo-canvas</pre></h1>
 
 
 <h3 align="center">Made with <strong style="color:#ff0062;">❤</strong> by</h3>
