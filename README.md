@@ -29,6 +29,7 @@ const image = await new cduo.Welcome() // Goodbye()
     .setUsername("Ling Mo 123456")
     .setBg("https://i.ibb.co/ChK2WWG/Null.jpg")
     .setSERVER("WHATSAPPCODE")
+    .setLocation('Asia/Jakarta') // moment timezone
     .toCreate();
     
   data = image.toBuffer();
