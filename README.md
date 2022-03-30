@@ -23,25 +23,31 @@ $ npm install duo-canvas
 const cduo = require("duo-canvas");
 const fs = require('fs');
 
+//Example
 const image = await new cduo.Welcome() // Goodbye()
     .setAvatar("https://i.ibb.co/C8SXBZK/Texas.jpg")
-    .setUsername("FELIXIA")
-    .setBg("https://i.ibb.co/yy1H0HD/V.jpg")
-    .setColor("#ffffff")
-    .toBuild();
+    .setUsername("Ling Mo 123456")
+    .setBg("https://i.ibb.co/ChK2WWG/Null.jpg")
+    .setSERVER("WHATSAPPCODE")
+    .toCreate();
     
   data = image.toBuffer();
   await fs.writeFileSync('./tmp/welcome.png', data)
  
 
 ```
-<img width="215" src="https://i.ibb.co/SN69Nyd/Preview.png">
+
+<p align="center">
+<img width="215" src="https://i.ibb.co/xFdnKbm/Preview-wel-ex.jpg">
+</p>
 
 #### 2. Rank
 
 ```js
 const cduo = require("duo-canvas");
 const fs = require('fs');
+
+//Example
 
 const image = await new cduo.Rank()
     .setAvatar("https://i.ibb.co/C8SXBZK/Texas.jpg")
@@ -58,8 +64,10 @@ const image = await new cduo.Rank()
  
  
 ```
-<img src="https://i.ibb.co/VqTCgY8/Level.jpg" width="215"/>
 
+<p align="center">
+<img src="https://i.ibb.co/VqTCgY8/Level.jpg" width="215"/>
+</p>
 
 <h3 align="center"><b style="color:#ff0000">T</b><b style="color:#ffd800">H</b><b style="color:#53ff58">A</b><b style="color:#5300ae">N</b><b style="color:#ff0081">K</b><b style="color:#2966ff">S</b> For Using <strong style="color:#00ffab;">(＾▽＾)</strong></h3>
 <p align="center">
