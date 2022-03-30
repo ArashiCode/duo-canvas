@@ -1,6 +1,6 @@
 const Canvas = require("canvas");
 
-module.exports = class Welcome {
+module.exports = class Goodbye {
 
 constructor() {
 this.fm = "https://rawcdn.githack.com/Lingz-ui/data-myBot/2662c2b0f8fbe9d8d448f3194943c9f9951da5d0/wa-code/hosting-bot/assets/20220327_212251.png";
