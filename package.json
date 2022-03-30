@@ -37,6 +37,7 @@
   "homepage": "https://github.com/Felix-403/duo-canvas#readme",
   "dependencies": {
     "canvas": "^2.6.1",
+    "moment-timezone": "^0.5.34",
     "moment": "^2.29.1"
   }
 }
