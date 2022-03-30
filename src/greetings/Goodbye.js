@@ -1,4 +1,5 @@
 const Canvas = require("canvas");
+const moment = require('moment-timezone');
 
 module.exports = class Goodbye {
 
@@ -8,6 +9,7 @@ this.avatar = "https://i.ibb.co/C8SXBZK/Texas.jpg";
 this.bg = "https://i.ibb.co/ChK2WWG/Null.jpg"
 this.username = "Felixia";
 this.server = "SQUAD404";
+this.locate = "Asia/Jakarta";
 }
 setAvatar(value) {
 this.avatar = value;
@@ -25,9 +27,17 @@ setSERVER(value) {
 this.server = value;
 return this;
 }
+
+setLocation(value) {
+this.locate = value;
+return this;
+}
+
 async toCreate() {
 const canvas = Canvas.createCanvas(2100, 1034);
 const ctx = canvas.getContext("2d");
+const jam = moment.tz(this.locate).format('HH:mm')
+
 const d = new Date();
 let h = d.getHours();
 let m = d.getMinutes();
@@ -91,7 +101,7 @@ ctx.font = "95px NVM";
 ctx.textAlign = 'left';
 ctx.fillText(dates, 55, 1008);
 
-let hourse = h + ':' + m;
+let hourse = jam;
 ctx.fillStyle = "#ffffff";
 let hoursed = hourse.length > 9 ? hourse.substring(0, 9) + " " : hourse;
 ctx.font = "95px NVM";
