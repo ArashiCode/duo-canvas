@@ -3,10 +3,6 @@
   "version": "1.0.1",
   "description": "goodbye world",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm publish"
-     },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Felix-403/duo-canvas.git"
