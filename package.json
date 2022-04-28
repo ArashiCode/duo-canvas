@@ -10,6 +10,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "scripts": {
+    "test": "node test.js"
+  },
   "keywords": [
     "canvas",
     "canvas discord",
